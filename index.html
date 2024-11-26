@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BH Internet</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="top-header">
+            <p>site à vendre</p>
+        </div>
+        <nav>
+            <div class="logo" onclick="window.location.href='/'">
+                <img src="images/logo_.png" alt="logo">
+                <p>Internet</p>
+            </div>
+            <ul class="nav-links">
+                <li class="nav-link">
+                    <a href="#">Accueil</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">Particuliers</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">Professionnels</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">Avis clients</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">Nos réalisations</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">Contactez-nous</a>
+                </li>
+            </ul>
+            <div class="cta">
+                <a href="#">Devis en ligne</a>
+            </div>
+            <div class="menu-mobile">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="left-hero">
+                <p>
+                    bh internet, à votre disposition pour l'organisation de votre soirée
+                </p>
+            </div>
+            <div class="right-hero">
+                <h3>
+                    Estimez gratuitement votre budget pour votre évènement
+                </h3>
+                <form>
+                    <div class="form-group">
+                        <div class="form-field">
+                            <label for="entreprise">Entreprise</label>
+                            <input type="text" id="entreprise" name="entreprise">
+                        </div>
+                        <div class="form-field">
+                            <label for="name">Nom</label>
+                            <input type="text" id="name" name="name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="form-field">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-field">
+                            <label for="phone">Téléphone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-field">
+                            <label for="type-event">Type de produit</label>
+                            <select name="type-event" id="type-event">
+                                <option value="wedding">Mariage</option>
+                                <option value="birthday">Anniversaire</option>
+                                <option value="other">Autre</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="send">
+                        <button type="submit">Envoyer</button>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="presentation">
+            <div class="presentation-title">
+                <span></span>
+                <h3>Bienvenue</h3>
+                <span></span>
+            </div>
+            <div class="presentation-content">
+                <p>
+                    Selon une enquête, 60% des personnes interrogées sont déçu de leur mariage... Mauvaise organisation,
+                    stresse,... BH Internet est présente pour vous accompagner pour le plus beau jour de votre vie.
+                    Notre équipe s'occupe de tout afin que vous puissiz profiter pleinement de votre journée et de vos
+                    convives sans se soucier d'autre chose.
+                    <br>
+                    <br>
+                    Pour vos évènements professionnels ou particuluer nous mettons à votre disposition une équipe
+                    experimentée qui sera anticiper et maitriser chacune des situations.
+                </p>
+            </div>
+        </section>
+
+        <section class="realisations">
+            <div class="real">
+                <div class="image-real">
+                    <img src="./images/img1.jpg" alt="">
+                </div>
+                <div class="content-real">
+                    <h3>
+                        clé en main
+                    </h3>
+                </div>
+            </div>
+            <div class="real">
+                <div class="image-real">
+                    <img src="./images/img2.jpg" alt="">
+                </div>
+                <div class="content-real">
+                    <h3>
+                        à la carte
+                    </h3>
+                </div>
+            </div>
+
+            <div class="real">
+                <div class="image-real">
+                    <img src="./images/img3.jpg" alt="">
+                </div>
+                <div class="content-real">
+                    <h3>
+                        décoration mariage
+                    </h3>
+                </div>
+            </div>
+
+            <div class="real">
+                <div class="image-real">
+                    <img src="./images/img5.jpg" alt="">
+                </div>
+                <div class="content-real">
+                    <h3>
+                        anniversaire
+                    </h3>
+                </div>
+            </div>
+
+            <div class="real">
+                <div class="image-real">
+                    <img src="./images/img6.jpg" alt="">
+                </div>
+                <div class="content-real">
+                    <h3>
+                        évènement particulier
+                    </h3>
+                </div>
+            </div>
+
+            <div class="real">
+                <div class="image-real">
+                    <img src="./images/img7.jpg" alt="">
+                </div>
+                <div class="content-real">
+                    <h3>
+                        évènement professionnel
+                    </h3>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <div class="phone">
+        <a href="tel:01 64 57 40 43">
+            <img src="./images/phone.png" alt="phone">
+            <p>01 64 57 40 43</p>
+        </a>
+    </div>
+</body>
+<script type="module" src="app.js"></script>
+</html>
